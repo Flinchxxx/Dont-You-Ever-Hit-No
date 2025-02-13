@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine's Question</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+            background-color: #ffe6e6;
+            padding: 50px;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+            display: inline-block;
+        }
+        h1 {
+            color: #ff4d4d;
+        }
+        .buttons {
+            margin-top: 20px;
+        }
+        .btn {
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .yes {
+            background-color: #ff4d4d;
+            color: white;
+        }
+        .no {
+            background-color: #999;
+            color: white;
+        }
+        .no:hover {
+            position: absolute;
+            left: 10px;
+            top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>I hate you but still, will you be my Valentine?</h1>
+        <img src="https://i.imgur.com/v4RKlLg.png" alt="Okarun" width="200"> <!-- Placeholder for Okarun -->
+        <div class="buttons">
+            <button class="btn yes" onclick="alert('Yay! See you on Valentine\'s Day! ❤️')">Yes</button>
+            <button class="btn no" onmouseover="this.style.left=Math.random()*300+'px'; this.style.top=Math.random()*300+'px';">No</button>
+        </div>
+    </div>
+</body>
+</html>
